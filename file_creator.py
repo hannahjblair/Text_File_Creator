@@ -1,5 +1,4 @@
 name = input("What's your name? \n")
 color = input("What's your favorite color? \n")
 with open('example.txt', 'w') as file:
-    file.write(f"{name} created this file.")
-    file.write(f" {name}'s favorite color is {color}.")
+    file.write(f"{name} created this file. {name}'s favorite color is {color}.")
